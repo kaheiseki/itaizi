@@ -48,5 +48,5 @@ count_itaizi("hogehoge")
 
 ## 参考文献
 東京大学資料編纂所."東京大学史料編纂所データベース異体字同定一覧".更新2022/03/21.  
-https://wwwap.hi.u-tokyo.ac.jp/ships/itaiji_list.jsp(参照2022/03/21)  
+https://wwwap.hi.u-tokyo.ac.jp/ships/itaiji_list.jsp (参照2022/03/21)  
 3/22現在このリストの40番目まで対応しています。
