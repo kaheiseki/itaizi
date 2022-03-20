@@ -1,8 +1,5 @@
-from socket import SO_VM_SOCKETS_BUFFER_MIN_SIZE
 import sys
 sys.dont_write_bytecode  = True
-sys.path.append("../itaizi")
-from list import itaizi_list
 
 # TODO keyとvalueを持ってくる
 itaizi = ["hoge","hoge"]
