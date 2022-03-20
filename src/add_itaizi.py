@@ -8,6 +8,7 @@ key = ["hoge","hoge"]
 value = ["hoge","hoge"]
 
 
+# 本番ではpathをsample.pyからlist.pyに変える
 with open("../itaizi/sample.py",mode = "w") as f:
   f.write("itaizi_list = {\n")
   for index in range(len(key)):
