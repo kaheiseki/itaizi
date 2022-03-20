@@ -16,7 +16,7 @@ pip install itaizi
 ```
 の形でも対応予定です。
 
-### 関数の説明
+### 関数の機能
 #### to_itaizi
 ```
 to_itaizi("hogehoge")
