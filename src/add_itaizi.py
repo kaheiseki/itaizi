@@ -9,5 +9,10 @@ value = ["hoge","hoge"]
 
 
 with open("../itaizi/sample.py",mode = "w") as f:
+  f.write("itaizi_list = {\n")
   for i in range(len(key)):
-    f.write(key[i] + ":" + value[i] + "\n")
+    if i != len(key) - 1:
+      f.write("  \"" + key[i] + "\":\"" + value[i] + "\",\n")
+    elif i == len(key) - 1:
+      f.write("  \"" + key[i] + "\":\"" + value[i] + "\"\n") 
+  f.write("}")
