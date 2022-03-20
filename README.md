@@ -9,7 +9,7 @@
 ```
 pip install git+https://github.com/kaheiseki/itaizi
 ```
-のコマンドを打つことで手元にインストールすることができます
+のコマンドを打つことで手元にインストールすることができます 
 いずれ
 ```
 pip install itaizi
