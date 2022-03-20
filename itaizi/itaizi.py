@@ -22,3 +22,19 @@ def to_itaizi(string):
     else:
       text += char
   return text 
+
+# 文字列中に異体字が含まれているかどうか確認する関数
+def is_itaizi(string):
+  for char in string:
+    if char in itaizi_list:
+      return True
+    else:
+      return False
+  
+# 文字列中に含まれている異体字の数を数える関数
+def count_itaizi(string):
+  count = 0
+  for char in string:
+    if char in itaizi_list:
+      count += 1
+  return count
