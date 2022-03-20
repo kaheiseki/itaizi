@@ -1,7 +1,7 @@
 import sys
 sys.dont_write_bytecode  = True
 
-# TODO keyとvalueを持ってくる
+# TODO itaiziとseiziに対応するリストをそれぞれ持ってくる
 itaizi = ["hoge","hoge"]
 seizi = ["hoge","hoge"]
 
