@@ -10,7 +10,7 @@ def to_seizi(string):
       text += char
   return text
   
-# 文字列中の正字をい異体字に変換したものを返す関数
+# 文字列中の正字を異体字に変換したものを返す関数
 def to_itaizi(string):
   text = ""
   for char in string:
@@ -18,6 +18,7 @@ def to_itaizi(string):
       for key,value in itaizi_list.items():
         if value == char:
           text += key
+          break
     else:
       text += char
   return text 
