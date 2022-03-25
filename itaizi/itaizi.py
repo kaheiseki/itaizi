@@ -5,7 +5,7 @@ def to_seizi(string):
   text = ""
   for char in string:
     if char in itaizi_list:
-      text += itaizi_list(char)
+      text += itaizi_list[char]
     else:
       text += char
   return text
