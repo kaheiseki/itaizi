@@ -31,7 +31,7 @@ to_seizi("hogehoge")
 によって文章中の異体字を全て正字に変更することができます。  
 変換後の文字列が返り値として出力されます。
 
-#### is_itaizi
+#### exist_itaizi
 ```
 exist_itaizi("hogehoge")
 ```
