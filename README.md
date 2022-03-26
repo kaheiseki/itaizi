@@ -33,7 +33,7 @@ to_seizi("hogehoge")
 
 #### is_itaizi
 ```
-is_itaizi("hogehoge")
+exist_itaizi("hogehoge")
 ```
 によって文章中に異体字が含まれているかどうかを判定することができます。  
 TrueまたはFalseが返り値として出力されます。

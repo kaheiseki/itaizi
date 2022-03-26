@@ -24,7 +24,7 @@ def to_itaizi(string):
   return text 
 
 # 文字列中に異体字が含まれているかどうか確認する関数
-def is_itaizi(string):
+def exist_itaizi(string):
   for char in string:
     if char in itaizi_list:
       return True
